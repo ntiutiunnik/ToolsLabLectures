@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="integrationTest:war">
+    <output-path>$PROJECT_DIR$/integrationTest/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>integrationTest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mavenTestProjectFinal.war">
+      <element id="artifact" artifact-name="integrationTest:war exploded" />
+    </root>
+  </artifact>
+</component>
